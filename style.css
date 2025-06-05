@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 180px;
+}
+.jauge{
+    min-height: 50px;
+    min-width: 500px;
+    background-color: #26474E;
+    border-radius: 20px ;
+    display: flex;
+    overflow: hidden;
+}
+
+#zone{
+    min-width: 3%;
+    background-color: #76CDCD;
+    min-height: 10%;
+    margin-left: 50%;
+    position: relative;
+}
+
+#cursor{
+    width: 5px;
+    min-height: 50px;
+    background-color: #F27438;
+    position: relative;
+    margin-left: 50%;
+    transform: translateY(-100%);
+}
+
+#btn{
+    width: 10%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+p{
+    margin: 20px auto;
+}
